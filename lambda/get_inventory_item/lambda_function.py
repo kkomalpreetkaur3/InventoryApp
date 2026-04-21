@@ -3,7 +3,6 @@ import json
 import os
 from decimal import Decimal
 
-
 def decimal_default(obj):
     if isinstance(obj, Decimal):
         if obj % 1 == 0:
